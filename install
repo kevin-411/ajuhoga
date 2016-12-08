@@ -1,0 +1,6 @@
+this is the command line version of the system
+the web interface will soon come online
+the main file is startfile.cpp
+development platform is ubuntu 16 linux, but any other linux distro can do
+for the databaseconnect.h to work appropriately, startfile.cpp has to be compiled with --std=c++11 build option
+i.e: g++ --std=c++11 -Wall -I/usr/include/cppconn -L/usr/lib -lmysqlcppconn
